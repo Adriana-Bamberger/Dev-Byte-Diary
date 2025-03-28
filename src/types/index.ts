@@ -25,3 +25,7 @@ export interface DiaryContainerProps {
   entries: DiaryEntry[]
   scrollContainerRef: React.RefObject<HTMLDivElement>
 }
+
+export interface ExtendedDiaryCardProps extends DiaryCardProps {
+  isMobile: boolean
+}
