@@ -2,3 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-wood-dark text-white;
+    background-image: url('/lovable-uploads/f83a8e7e-687c-4b7a-b50b-37fc5179a86e.png');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  /* Font settings have been updated */
+  .font-serif {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(93, 64, 55, 0.5);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(93, 64, 55, 0.8);
+  }
+}
+
+/* Custom scroll snap styles */
+.snap-container {
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.snap-item {
+  scroll-snap-align: center;
+}
