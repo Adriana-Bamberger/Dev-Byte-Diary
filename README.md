@@ -1,13 +1,15 @@
 # Dev-Byte-Journal
 
-![Status: In Progress](https://img.shields.io/badge/status-in%20progress-yellow)
+![Status: Finished for Now](https://img.shields.io/badge/status-finished%20for%20now-green)
+
+This is a basic page I built for styling practice with horizontal scrolling.
+Currently it uses a datafile, I might extend it later to use Supabase and pagination
 
 This project is built with:
 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
 
 ## Timeline
